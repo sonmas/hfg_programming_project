@@ -1,0 +1,73 @@
+/* CSS Resets */
+
+body, h1, h2, p, ul {
+	margin: 0px;
+	font-size: 1em;
+	font-family: lato;
+	background-color: #000;
+	color: #FFF;
+}
+ul{
+	list-style: none;
+}
+.clear{
+	clear: both;
+}
+
+
+
+/* ---------- Typo */
+
+
+/* ---------- Layout */
+.content {
+	border: solid 1px blue;
+	width: 1300px;
+	width: 80%;
+	margin: 0 auto;
+}
+/* Sidebar */
+.sidebar {
+	border: solid 1px red;
+	width: 300px;
+	height: 600px;
+	position: absolute;
+	top: 10%;
+}
+.sidebar h1{
+	color: #fffe00;
+}
+.work {
+	margin : 40px 0 0 -40px;
+}
+.info {
+	left: -40px;
+	bottom: 0px;
+	position: absolute;
+}
+.work h2{
+	margin-top: 5px;
+}
+
+.projects{
+	margin-bottom: 10px;
+	display: none;
+}
+
+.show{
+	display: block;
+}
+/* main */
+.main {
+	border: solid 1px green;
+	height: 800px;
+	width: 930px;
+	float: right;
+}
+
+
+
+
+
+
+
