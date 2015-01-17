@@ -3,13 +3,14 @@
 <head>
 	<title>Axel Masson</title>
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,900,300italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<! <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
-	<div class="content">
-		<div class="sidebar">
+	<div class="row">
+		<div class="col-md-2 col-md-offset-2 sidebar">
 			<h1>AXEL MASSON</h1>
 			<ul class="work">
 				<li class"photography"> <h2>PHOTOGRAPHY</h2>
@@ -43,25 +44,16 @@
 				</li>
 				<li class"audiovisual"> <h2>AUDIOVISUAL DESIGN</h2></li>
 			</ul>
-			<ul class="info">
-				<li><h2>RESUME</h2></li>
-				<li><h2>CONTACT</h2></li>
-			</ul>
+			<div class="info">
+				<h2>RESUME</h2>	
+				<h2>CONTACT</h2>	
+			</div>
 		</div>
-
-		<div class="main">
-			<div class="clear"></div>
+		<div class="col-md-6 col-md-offset-4">		
+			<div class="main"></div>
 		</div>
-
 
 	</div>
-	<script type="text/javascript" charset="UTF-8" src="jquery.js"></script>
-		<script type="text/javascript">
-
-			$("li, .photographyList").hover(function(event){
-				$(".photographyList").toggleClass('show');
-			});
-		</script>
-
 </body>
 </html>
+
