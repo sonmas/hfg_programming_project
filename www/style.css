@@ -24,11 +24,16 @@ ul{
 
 
 /* ---------- Layout */
+
 .container{
 	width: 85%;
 	margin: 0 auto;
 }
 /* Sidebar */
+h2{
+	margin-top: 5px;
+	font-weight: bold;
+}
 .sidebar {
 
 	height: 600px;
@@ -40,32 +45,47 @@ ul{
 	font-size: 1.4em;
 	font-weight: bold;
 }
-.sidebar h2 {
-	font-weight: bold;
-}
 .projects {
+	margin-bottom: 10px;
+	margin-left: -20px;
 	font-weight: lighter;
 	display: none;
+
+}
+.show{
+	display: block;
 }
 .work {
 	margin : 40px 0 0 -40px;
-}
-.work h2, .info h2{
-	margin-top: 5px;
 }
 .info {
 	bottom: 0px;
 	position: absolute;
 }
 
-.projects{
-	margin-bottom: 10px;
-	margin-left: -20px;
+a:hover, a:link, a:visited, a:active{
+	text-decoration: none;
+	color: #FFF;
+}
+a{
+	color: #FFF;
+}
+a:hover{
+	color:#fffe00;
+}
+.work li>a>h2:hover{
+	color: #fffe00;
+	text-decoration: none;
+}
+.highlight{
+	color: #fffe00;
 }
 
 /* main */
 .main {
 	margin-top: 100px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 .portraits {
 	padding-right: 45px;
@@ -86,8 +106,4 @@ ul{
 .pictureLine{
 	padding-top: 10px;
 }
-
-
-
-
 
